@@ -1,0 +1,10 @@
+name: 'ENGLISH_THEME_NAME'
+description: 'Adaptation of the at2_palistry theme for the palistory.com site, by YMD Productions'
+type: theme
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: 'at2'
+
+libraries:
+  - at2_palistry/global-styling
+

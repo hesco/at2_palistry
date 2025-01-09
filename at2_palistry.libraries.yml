@@ -1,0 +1,10 @@
+
+global-styling:
+  css:
+    theme:
+      css/palistry_custom.css: {}
+
+  js:
+    js/palistry_custom.js: {}
+  dependencies:
+    - core/jquery
