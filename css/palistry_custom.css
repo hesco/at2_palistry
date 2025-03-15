@@ -1,1 +1,12 @@
 // * { color: red }
+
+div.card-group h1.node_title {
+  font-family: "gf_Young_Serif variant0", Tofu;
+}
+
+.pr-navbar, 
+div#navbar,
+div#rid-footer {
+  background-color: #2e2e2e;
+}
+
