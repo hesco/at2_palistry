@@ -428,3 +428,7 @@ bootstrap5:
 
 #   vendor/twbs/bootstrap/dist/js/bootstrap.js: {}
 
+global-styling:
+ css:
+   theme:
+     https://fonts.googleapis.com/css?family=Young+Serif: { type: external }
