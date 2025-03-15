@@ -1,5 +1,6 @@
 // * { color: red }
 
+h1.page__title,
 h2.node__title a.node__title-link span.field-name-title,
 h3.card-title a.node__title-link span.field-name-title,
 div.card-group h1.node__title span.field-name-title {
@@ -9,6 +10,7 @@ div.card-group h1.node__title span.field-name-title {
 
 .pr-navbar, 
 div#navbar,
+footer#footer,
 div#rid-footer {
   background-color: #2e2e2e;
 }
@@ -16,5 +18,13 @@ div#rid-footer {
 div.card-group div.field-name--field-card-title h3.field__label,
 div.field-node--field-card-img h3.field__label {
   display: none;
+}
+
+div.card-group article.node,
+div.card-group div.row-cols-md-3 {
+  border-style: solid;
+  border-color: #df0002;
+  border-width: 4px;
+  border-radius: 5px;
 }
 
