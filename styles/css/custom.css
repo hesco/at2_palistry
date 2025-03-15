@@ -3,3 +3,12 @@
  * Use this file to override styles if you feel uncomfortable editing
  * component stylesheets.
  ============================================================================ */
+
+
+.pr-navbar,
+footer#footer,
+div#rid-navbar,
+.pr-footer__footer {
+  background-color: #2e2e2e;
+}
+
