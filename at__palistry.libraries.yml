@@ -418,3 +418,13 @@ custom_css_file:
   css:
     theme:
       styles/css/custom.css: { weight: 1000 }
+
+bootstrap5:
+  css:
+    theme:
+      vendor/twbs/bootstrap/dist/css/bootstrap.css: {}
+  js:
+    vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
+
+#   vendor/twbs/bootstrap/dist/js/bootstrap.js: {}
+

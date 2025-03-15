@@ -1,4 +1,7 @@
 {
   "name": "ymd/at2_palistry",
-  "type": "drupal-custom-theme"
+  "type": "drupal-custom-theme",
+  "require": {
+    "twbs/bootstrap": "^5.3"
+  }
 }
