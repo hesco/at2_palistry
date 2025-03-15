@@ -417,7 +417,7 @@ custom_css_file:
   version: 8.x-0.1
   css:
     theme:
-      styles/css/custom.css: { weight: 1000 }
+      styles/css/palistry_custom.css: { weight: 1000 }
 
 bootstrap5:
   css:

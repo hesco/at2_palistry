@@ -1,6 +1,7 @@
 // * { color: red }
 
-div.card-group h1.node_title {
+h2.node__title a.node__title-link span.field-name-title,
+div.card-group h1.node_title span {
   font-family: "gf_Young_Serif variant0", Tofu;
 }
 
