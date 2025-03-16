@@ -28,3 +28,7 @@ div.card-group div.row-cols-md-3 {
   border-radius: 5px;
 }
 
+div.field-node--field-card-title {
+	display: none;
+}
+
