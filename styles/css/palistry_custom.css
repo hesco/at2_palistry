@@ -32,3 +32,7 @@ div.field-node--field-card-title {
 	display: none;
 }
 
+span.field-name-title {
+  color: #2e2e2e;
+}
+
