@@ -18,8 +18,8 @@
     "modularscale-sass": "3.0.3"
   },
   "engines": {
-    "node": "6.11.5",
-    "npm": "5.5.1"
+    "node": "v18.19.1",
+    "npm": "9.2.0"
   },
   "repository": {
     "type": "git",
