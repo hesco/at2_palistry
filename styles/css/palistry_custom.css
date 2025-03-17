@@ -55,3 +55,12 @@ nav#block-at-palistry-main-menu span.menu__link--wrapper {
   // background-color: #fe9b0a;
   // background-color: #3f3f3f;
 
+
+div.field-formatter-glightbox-media-remote-video img.image-style-thumbnail {
+  width: 85%;
+}
+
+div.field-formatter-glightbox-media-remote-video a.glightbox {
+  width: 85%;
+}
+

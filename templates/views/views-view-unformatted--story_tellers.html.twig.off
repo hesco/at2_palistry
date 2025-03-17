@@ -33,7 +33,7 @@
       <img src="{{ row.field_card_img}}" class="card-img-top" alt="{{ row.content}}">
     </div>
     <div class="card-video">
-      {{row.card-video}}
+      {{row.field_card_video}}
     </div>
     <div class="card-body">
       <p class="card-text">{{row.body}}</p>
