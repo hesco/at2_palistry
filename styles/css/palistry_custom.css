@@ -20,13 +20,13 @@ div.field-node--field-card-img h3.field__label {
   display: none;
 }
 
-div.card-group article.node,
-div.card-group div.row-cols-md-3 {
-  border-style: solid;
-  border-color: #df0002;
-  border-width: 4px;
-  border-radius: 5px;
-}
+// div.card-group article.node,
+// div.card-group div.row-cols-md-3 {
+//   border-style: solid;
+//   border-color: #df0002;
+//   border-width: 4px;
+//   border-radius: 5px;
+// }
 
 div.field-node--field-card-title {
 	display: none;
@@ -35,4 +35,23 @@ div.field-node--field-card-title {
 span.field-name-title {
   color: #2e2e2e;
 }
+
+div.card-group article.node--type-interviews {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 4px 0 rgba(223,0,2,0.1);
+  box-shadow: rgba(233, 0, 2, 0.4) 5px 5px, rgba(233, 0, 2, 0.3) 10px 10px, rgba(233, 0, 2, 0.2) 15px 15px, rgba(233, 0, 2, 0.1) 20px 20px, rgba(233, 0, 2, 0.05) 25px 25px;
+}
+  // box-shadow: rgb(233,0,2,2) 0px 20px 30px 0px;
+  // box-shadow: 0 6px 8px 0 rgba(223,0,2,0.1);
+
+nav#block-at-palistry-main-menu span.menu__link--wrapper {
+  background-color: #3e3e3e;
+}
+
+.ms-dropmenu .rm-block__content .menu-level-1 > li > span > .menu__link.is-active, .ms-horizontal .rm-block__content .menu-level-1 > li > span > .menu__link.is-active {
+  color: #ffffff;
+  background-color: #e20002;
+}
+  // background-color: #fe9b0a;
+  // background-color: #3f3f3f;
 
