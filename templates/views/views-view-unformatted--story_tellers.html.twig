@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * Theme override to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+{% if title %}
+  <h3 class="view-title">{{ title }}</h3>
+{% endif %}
+{% for row in rows %}
+  {%
+    set row_classes = [
+      default_row_class ? 'views-row',
+    ]
+  %}
+  <div{{ row.attributes.addClass(row_classes) }}>
+    {{ row.content }}
+  </div>
+  <div class="card-group">
+  <div class="card border-3">
+    <div class="card-image">
+      <img src="{{ row.field_card_img}}" class="card-img-top" alt="{{ row.content}}">
+    </div>
+    <div class="card-video">
+      {{row.field_card_video}}
+    </div>
+    <div class="card-body">
+      <p class="card-text">{{row.body}}</p>
+    </div>
+  </div>
+{% endfor %}
