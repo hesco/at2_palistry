@@ -1,0 +1,54 @@
+
+root: {
+  --crm-padding-reg: .1rem;
+  --crm-f-form-padding: .1rem;
+  --crm-f-fieldset-padding: .1rem;
+}
+
+div.crm-contribution-page-id-1 div#pricesetTotal, 
+div.crm-contribution-page-id-1 div.donation-content {
+  margin-right: 75px;
+}
+
+div#priceset {
+  display: flex;
+  width: 40%;
+}
+
+fieldset.payment_options-group div.content {
+  display: flex;
+  width: 40%;
+}
+
+div#onBehalfOfOrg div.content {
+  display: flex;
+  width: 40%;
+}
+
+fieldset.crm-profile-name-supporter_profile div.crm-section {
+  margin: 0 0 0 0;
+  padding: 0px;
+}
+
+@media screen and (min-width:800px) {
+
+  div#block-donorform div.block__inner {
+    float: right;
+    width: 48%;
+    padding-left: 1px;
+  }
+
+  body.path-frontpage article.node--type-about-palistory.node--promoted {
+    float: left;
+    width: 48%;
+    padding-right: 1px;
+  }
+
+}
+
+// html:not(root) div#block-at-palistry-branding,
+// html:not(root) body.theme-name--at__palistry div.l-navbar {
+article.node--id-2 li.node-readmore {
+  display: none;
+}
+
