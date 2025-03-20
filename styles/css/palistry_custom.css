@@ -1,5 +1,6 @@
 // * { color: red }
 
+span.field-name-title,
 h1.page__title,
 h2.node__title a.node__title-link span.field-name-title,
 h3.card-title a.node__title-link span.field-name-title,
@@ -36,6 +37,7 @@ span.field-name-title {
   color: #2e2e2e;
 }
 
+main#block-at-palistry-content div.card-group article.node--type-story-teller-video,
 div.card-group article.node--type-interviews {
   background-color: #ffffff;
   -webkit-box-shadow: 0 3px 4px 0 rgba(223,0,2,0.1);

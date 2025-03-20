@@ -418,6 +418,7 @@ custom_css_file:
   css:
     theme:
       styles/css/palistry_custom.css: { weight: 1000 }
+      styles/css/custom/civicrm/donor_form.css: { weight: 990 }
 
 bootstrap5:
   css:
@@ -427,6 +428,16 @@ bootstrap5:
     vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
 
 #   vendor/twbs/bootstrap/dist/js/bootstrap.js: {}
+
+bs5-bootstrap:
+  remote: https://raw.githubusercontent.com/trvswgnr/bs5-lightbox/main/dist/index.bundle.min.js
+  version: 1.8.3
+  license:
+    name: MIT
+    url: https://github.com/trvswgnr/bs5-lightbox/blob/main/LICENSE
+    gpl-compatible: true
+  js:
+    js/index.bundle.min.js: {}
 
 global-styling:
  css:
