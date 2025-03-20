@@ -1,7 +1,10 @@
 // * { color: red }
 
-span.field-name-title,
 h1.page__title,
+h1.node__title,
+span.field-name-title,
+article.node h1.node__title,
+article.node--type-story-teller-video h1.node__title,
 h2.node__title a.node__title-link span.field-name-title,
 h3.card-title a.node__title-link span.field-name-title,
 div.card-group h1.node__title span.field-name-title {
@@ -29,6 +32,7 @@ div.field-node--field-card-img h3.field__label {
 //   border-radius: 5px;
 // }
 
+li.node-readmore a.node-readmore__link,
 div.field-node--field-card-title {
 	display: none;
 }
