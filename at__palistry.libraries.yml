@@ -417,8 +417,8 @@ custom_css_file:
   version: 8.x-0.1
   css:
     theme:
-      styles/css/palistry_custom.css: { weight: 1000 }
       styles/css/custom/civicrm/donor_form.css: { weight: 990 }
+      styles/css/palistry_custom.css: { weight: 1000 }
 
 bootstrap5:
   css:
@@ -426,7 +426,6 @@ bootstrap5:
       vendor/twbs/bootstrap/dist/css/bootstrap.css: {}
   js:
     vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
-
 #   vendor/twbs/bootstrap/dist/js/bootstrap.js: {}
 
 bs5-bootstrap:
