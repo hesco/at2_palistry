@@ -419,6 +419,8 @@ custom_css_file:
     theme:
       styles/css/custom/civicrm/donor_form.css: { weight: 990 }
       styles/css/palistry_custom.css: { weight: 1000 }
+  dependencies:
+    - vendor/twbs/bootstrap
 
 bootstrap5:
   css:
@@ -428,7 +430,7 @@ bootstrap5:
     vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
 #   vendor/twbs/bootstrap/dist/js/bootstrap.js: {}
 
-bs5-bootstrap:
+bs5-lightbox:
   remote: https://raw.githubusercontent.com/trvswgnr/bs5-lightbox/main/dist/index.bundle.min.js
   version: 1.8.3
   license:
@@ -441,4 +443,10 @@ bs5-bootstrap:
 global-styling:
  css:
    theme:
+     vendor/twbs/bootstrap/dist/css/bootstrap.css: {}
      https://fonts.googleapis.com/css?family=Young+Serif: { type: external }
+
+global-scripts:
+  js:
+    vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
+
