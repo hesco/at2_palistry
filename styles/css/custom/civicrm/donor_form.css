@@ -32,8 +32,9 @@ fieldset.crm-profile-name-supporter_profile div.crm-section {
 
 @media screen and (min-width:800px) {
 
+  div#block-merchandisepurchase,
   div#block-donorform div.block__inner {
-    float: right;
+    float: left;
     width: 48%;
     padding-left: 1px;
   }
@@ -50,5 +51,9 @@ fieldset.crm-profile-name-supporter_profile div.crm-section {
 // html:not(root) body.theme-name--at__palistry div.l-navbar {
 article.node--id-2 li.node-readmore {
   display: none;
+}
+
+span.BuyButton-ButtonText {
+  background-color: #222222;
 }
 
