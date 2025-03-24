@@ -1,15 +1,26 @@
 // * { color: red }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 h1.page__title,
 h1.node__title,
 span.field-name-title,
 article.node h1.node__title,
+div.palistory_tellers p,
+div.palistory_board_member a,
+div#block-views-block-0-palistory-board-block-1 h3,
+div#block-views-block-0-palistory-tellers-02-block-1 h2,
 article.node--type-story-teller-video h1.node__title,
+h2#block-palistoryisdedicated-title,
 h2.node__title a.node__title-link span.field-name-title,
 h3.card-title a.node__title-link span.field-name-title,
 div.card-group h1.node__title span.field-name-title {
   font-family: "gf_Young_Serif variant0", Tofu;
-	font-weight: 600;
+  font-weight: 600;
 }
 
 .pr-navbar, 
@@ -24,14 +35,6 @@ div.field-node--field-card-img h3.field__label {
   display: none;
 }
 
-// div.card-group article.node,
-// div.card-group div.row-cols-md-3 {
-//   border-style: solid;
-//   border-color: #df0002;
-//   border-width: 4px;
-//   border-radius: 5px;
-// }
-
 li.node-readmore a.node-readmore__link,
 div.field-node--field-card-title {
 	display: none;
@@ -41,14 +44,14 @@ span.field-name-title {
   color: #2e2e2e;
 }
 
+article.node--type-story-teller-video, 
 main#block-at-palistry-content div.card-group article.node--type-story-teller-video,
+div#block-views-block-0-palistory-board-block-1 div.views.col,
 div.card-group article.node--type-interviews {
   background-color: #ffffff;
   -webkit-box-shadow: 0 3px 4px 0 rgba(223,0,2,0.1);
   box-shadow: rgba(233, 0, 2, 0.4) 5px 5px, rgba(233, 0, 2, 0.3) 10px 10px, rgba(233, 0, 2, 0.2) 15px 15px, rgba(233, 0, 2, 0.1) 20px 20px, rgba(233, 0, 2, 0.05) 25px 25px;
 }
-  // box-shadow: rgb(233,0,2,2) 0px 20px 30px 0px;
-  // box-shadow: 0 6px 8px 0 rgba(223,0,2,0.1);
 
 nav#block-at-palistry-main-menu span.menu__link--wrapper {
   background-color: #3e3e3e;
@@ -58,9 +61,6 @@ nav#block-at-palistry-main-menu span.menu__link--wrapper {
   color: #ffffff;
   background-color: #e20002;
 }
-  // background-color: #fe9b0a;
-  // background-color: #3f3f3f;
-
 
 div.field-formatter-glightbox-media-remote-video img.image-style-thumbnail {
   width: 85%;
@@ -68,5 +68,21 @@ div.field-formatter-glightbox-media-remote-video img.image-style-thumbnail {
 
 div.field-formatter-glightbox-media-remote-video a.glightbox {
   width: 85%;
+}
+
+div#block-merchandisepurchase {
+//  float: left;
+  width: 48%;
+  @include clearfix;
+}
+
+div#palistory_merchandise {
+  border: 1;
+  display: block;
+  margin: auto;
+}
+
+div.views-col {
+  width: inherit !important;
 }
 
