@@ -1,9 +1,19 @@
+/* Custom CSS */
+
 // * { color: red }
 
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.pr-navbar {
+  background-color: #2e2e2e;
+}
+
+.pr-footer__footer {
+  background-color: #2e2e2e;
 }
 
 h1.page__title,
@@ -35,6 +45,7 @@ div.field-node--field-card-img h3.field__label {
   display: none;
 }
 
+a.site-branding__name-link,
 li.node-readmore a.node-readmore__link,
 div.field-node--field-card-title {
 	display: none;
