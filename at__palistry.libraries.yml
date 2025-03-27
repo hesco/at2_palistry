@@ -422,12 +422,15 @@ custom_css_file:
   dependencies:
     - vendor/twbs/bootstrap
 
-bootstrap5:
+bootstrap:
   css:
     theme:
-      vendor/twbs/bootstrap/dist/css/bootstrap.css: {}
+      styles/css/bootstrap.css: {}
   js:
-    vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
+    js/bootstrap.js: {}
+
+#     vendor/twbs/bootstrap/dist/css/bootstrap.css: {}
+#   vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
 #   vendor/twbs/bootstrap/dist/js/bootstrap.js: {}
 
 bs5-lightbox:
@@ -443,10 +446,14 @@ bs5-lightbox:
 global-styling:
  css:
    theme:
-     vendor/twbs/bootstrap/dist/css/bootstrap.css: {}
+     styles/css/bootstrap.css: {}
      https://fonts.googleapis.com/css?family=Young+Serif: { type: external }
+
+#    vendor/twbs/bootstrap/dist/css/bootstrap.css: {}
 
 global-scripts:
   js:
-    vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
+    js/bootstrap.js: {}
+
+#   vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
 
