@@ -21,6 +21,7 @@ h1.node__title,
 span.field-name-title,
 article.node h1.node__title,
 div.palistory_tellers p,
+div.palistory-tellers div.view-header h3,
 div.palistory_board_member a,
 div#block-views-block-0-palistory-board-block-1 h3,
 div#block-views-block-0-palistory-tellers-02-block-1 h2,
@@ -31,6 +32,10 @@ h3.card-title a.node__title-link span.field-name-title,
 div.card-group h1.node__title span.field-name-title {
   font-family: "gf_Young_Serif variant0", Tofu;
   font-weight: 600;
+}
+
+div.palistory-tellers div.view-header {
+  text-align: center;
 }
 
 .pr-navbar, 
@@ -59,10 +64,11 @@ article.node--type-story-teller-video,
 main#block-at-palistry-content div.card-group article.node--type-story-teller-video,
 div#block-views-block-0-palistory-board-block-1 div.views.col,
 div.card-group article.node--type-interviews {
-  background-color: #ffffff;
+  background-color: #e9e9e9;
   -webkit-box-shadow: 0 3px 4px 0 rgba(223,0,2,0.1);
-  box-shadow: rgba(233, 0, 2, 0.4) 5px 5px, rgba(233, 0, 2, 0.3) 10px 10px, rgba(233, 0, 2, 0.2) 15px 15px, rgba(233, 0, 2, 0.1) 20px 20px, rgba(233, 0, 2, 0.05) 25px 25px;
+  // box-shadow: rgba(233, 0, 2, 0.4) 5px 5px, rgba(233, 0, 2, 0.3) 10px 10px, rgba(233, 0, 2, 0.2) 15px 15px, rgba(233, 0, 2, 0.1) 20px 20px, rgba(233, 0, 2, 0.05) 25px 25px;
 }
+// box-shadow: rgba(233, 0, 2, 0.4) 5px 5px, rgba(233, 0, 2, 0.3) 10px 10px, rgba(233, 0, 2, 0.2) 15px 15px, rgba(233, 0, 2, 0.1) 20px 20px, rgba(233, 0, 2, 0.05) 25px 25px;
 
 nav#block-at-palistry-main-menu span.menu__link--wrapper {
   background-color: #3e3e3e;
