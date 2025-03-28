@@ -8,10 +8,13 @@
   display: table;
 }
 
-.pr-navbar {
-  background-color: #2e2e2e;
+div.palistory_board_member a {
+  color: #2e2e2e;
+  font-weight: 600;
+  font-family: "gf_Young_Serif variant0", Tofu;
 }
 
+.pr-navbar,
 .pr-footer__footer {
   background-color: #2e2e2e;
 }
