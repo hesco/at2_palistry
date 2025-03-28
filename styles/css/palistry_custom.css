@@ -19,12 +19,12 @@ div.palistory_board_member a {
   background-color: #2e2e2e;
 }
 
-div#content-prefix div.l-rw  {
+body.path-frontpage div#content-prefix div.l-rw  {
   background-image: url("/sites/default/files/public_images/2025-03/hungry_gazan_children-01.jpg");
 }
 
-article.node--type-about-palistory.node--promoted,
-article.node--type-about-palistory.node--promoted span.field-name-title {
+body.path-frontpage article.node--type-about-palistory.node--promoted,
+body.path-frontpage article.node--type-about-palistory.node--promoted span.field-name-title {
   color: white;
   background-color: transparent;
   // background-color: rgba(255, 0, 0, 0.4);
@@ -109,7 +109,7 @@ div.field-node--field-card-img h3.field__label {
 a.site-branding__name-link,
 li.node-readmore a.node-readmore__link,
 div.field-node--field-card-title {
-	display: none;
+  display: none;
 }
 
 span.field-name-title {
