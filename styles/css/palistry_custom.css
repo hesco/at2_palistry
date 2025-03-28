@@ -23,6 +23,17 @@ div#content-prefix div.l-rw  {
   background-image: url("/sites/default/files/public_images/2025-03/hungry_gazan_children-01.jpg");
 }
 
+article.node--type-about-palistory.node--promoted,
+article.node--type-about-palistory.node--promoted span.field-name-title {
+  color: white;
+  background-color: transparent;
+  // background-color: rgba(255, 0, 0, 0.4);
+}
+
+div.views-field-field-embed-video {
+  margin-top: 1em;
+}
+
 #iframe-field_embed_video-9,
 #iframe-field_embed_video-10,
 #iframe-field_embed_video-11,
@@ -52,6 +63,7 @@ div.views-field-field-embed-video h3.iframe_title {
 div.palistory-tellers div.views-col.col-1,
 div.palistory-tellers div.views-col.col-2,
 div.palistory-tellers div.views-col.col-3 {
+  border-radius: 25px;
   background-color: #e6e6e6;
   margin: 12px;
 }
@@ -62,6 +74,7 @@ span.field-name-title,
 span.story-teller-name,
 article.node h1.node__title,
 div.palistory_tellers p,
+div.palistory-tellers div.view-header h2,
 div.palistory-tellers div.view-header h3,
 div.palistory_board_member a,
 div#block-views-block-0-palistory-board-block-1 h3,
@@ -84,7 +97,8 @@ div.palistory-tellers div.view-header {
 div#navbar,
 footer#footer,
 div#rid-footer {
-  background-color: #2e2e2e;
+  background-color: #000000;
+  // background-color: #2e2e2e;
 }
 
 div.card-group div.field-name--field-card-title h3.field__label,
@@ -143,5 +157,15 @@ div#palistory_merchandise {
 
 div.views-col {
   width: inherit !important;
+}
+
+// footer div#block-mainnavigation div.block-menu__content {
+// footer #block-mainnavigation > div:nth-child(1) > div:nth-child(3) {	
+
+ul.menu-name--main,
+div.l-footer ul.menu-name--main,
+footer ul.menu-name--main {
+  display: flex;
+  justify-content: center;
 }
 
