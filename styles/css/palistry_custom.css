@@ -14,13 +14,26 @@ div.palistory_board_member a {
   font-family: "gf_Young_Serif variant0", Tofu;
 }
 
+@font-face {
+  font-family: 'Glancyr';
+  src: url('fonts/otf/glancyr-glancyr-bold-700.otf') format('opentype');
+}
+
+h1, h2, h3 {
+  font-family: 'Glancyr';
+}	
+
 .pr-navbar,
 .pr-footer__footer {
   background-color: #2e2e2e;
 }
 
 body.path-frontpage div#content-prefix div.l-rw  {
-  background-image: url("/sites/default/files/public_images/2025-03/hungry_gazan_children-01.jpg");
+  background-image: url("/sites/default/files/public_images/2025-03/Palistory-banner-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // url("/sites/default/files/public_images/2025-03/hungry_gazan_children-01.jpg");
 }
 
 body.path-frontpage article.node--type-about-palistory.node--promoted,
@@ -32,6 +45,13 @@ body.path-frontpage article.node--type-about-palistory.node--promoted span.field
 
 div.views-field-field-embed-video {
   margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+div.palistory-tellers div.views-field-field-embed-video div.field-content p, 
+div.palistory-tellers div.views-field-field-embed-video div.field-content span.story-teller-name { 
+  margin: 1em 1em 1em 1em;
 }
 
 #iframe-field_embed_video-9,
@@ -94,7 +114,7 @@ div.palistory-tellers div.view-header {
 }
 
 .pr-navbar, 
-div#navbar,
+div#navbar div.l-rw,
 footer#footer,
 div#rid-footer {
   background-color: #000000;
@@ -164,6 +184,7 @@ div.views-col {
 
 ul.menu-name--main,
 div.l-footer ul.menu-name--main,
+div#block-donatenowbutton img,
 footer ul.menu-name--main {
   display: flex;
   justify-content: center;
