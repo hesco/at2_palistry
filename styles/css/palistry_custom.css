@@ -43,6 +43,10 @@ body.path-frontpage article.node--type-about-palistory.node--promoted span.field
   // background-color: rgba(255, 0, 0, 0.4);
 }
 
+div#palistory_merchandise_copy p {
+  color: #ffffff;
+}
+
 div.views-field-field-embed-video {
   margin-top: 1em;
   margin-left: 1em;
