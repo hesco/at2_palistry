@@ -23,6 +23,19 @@ h1, h2, h3 {
   font-family: 'Glancyr';
 }	
 
+header#masthead {
+  display: block;
+  height: 3em;
+}
+
+header#masthead div#rid-header-first div#block-at-palistry-branding,
+header#masthead div#rid-header-first div#block-at-palistry-branding img.site-branding__logo-img {
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
 .pr-navbar,
 .pr-footer__footer {
   background-color: #2e2e2e;
@@ -80,6 +93,7 @@ div.views-field-field-embed-video div.views-field-body {
   
 }
 
+article.node--promoted .field-name-title,
 div.views-field-field-embed-video h3.iframe_title {
   display: none;
 }
@@ -192,5 +206,23 @@ div#block-donatenowbutton img,
 footer ul.menu-name--main {
   display: flex;
   justify-content: center;
+}
+
+ul.menu-name--main li {
+  align-items: center;
+}
+
+#purchase_kuffiyeh,
+div#purchase_kuffiyeh:before,
+div#rid-content-suffix -> div#block-purchaseakuffieyh -> div#purchase_kuffiyeh {
+  background-image: url("https://dev.palistory.org/sites/default/files/public_images/2025-03/Palistory-banner-02.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.l-content-suffix #content-suffix #purchase_kuffiyeh p {
+    color: white;
 }
 

@@ -99,6 +99,16 @@ rows:
       subfeatures_fourth:
         label: 'Sub-features fourth'
         order: 4
+  first_footer:
+    attributes:
+      id: first-footer
+    regions:
+      first_footer_left:
+        label: 'First Footer Left'
+        order: 1
+      first_footer_right:
+        label: 'First Footer Right'
+        order: 2
   footer:
     attributes:
       role: contentinfo

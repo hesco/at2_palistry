@@ -25,6 +25,8 @@ regions:
   subfeatures_second: 'Sub-features second'
   subfeatures_third: 'Sub-features third'
   subfeatures_fourth: 'Sub-features fourth'
+  first_footer_left: 'First Footer Left'
+  first_footer_right: 'First Footer Right'
   footer: Footer
   page_top: 'Page top'
   page_bottom: 'Page bottom'
