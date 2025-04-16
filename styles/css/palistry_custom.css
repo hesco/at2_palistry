@@ -226,6 +226,6 @@ div#rid-content-suffix -> div#block-purchaseakuffieyh -> div#purchase_kuffiyeh {
     color: white;
 }
 nav#block-at-palistry-main-menu {
-    display:block;
-    float:right;
+    display:block !important;
+    float:right !important;
 }
