@@ -7,6 +7,7 @@
   clear: both;
   display: table;
 }
+
 nav.rm-block {
     display: block !important;
     float: right !important;
