@@ -79,7 +79,7 @@ div.views-field-body {
 }
 
 // div.palistory-tellers div.views-field-field-embed-video div.field-content, 
-// div.palistory-tellers div.views-field-field-embed-video div.field-content p, 
+div.palistory-tellers div.views-field-field-embed-video div.field-content p, 
 div.palistory-tellers div.views-field-field-embed-video div.field-content span.story-teller-name { 
   margin: 2em 2em 2em 2em;
 }
