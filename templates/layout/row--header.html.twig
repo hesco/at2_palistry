@@ -17,10 +17,26 @@
 #}
 <div{{ row_attributes }}>
   {{ row_prefix }}
+
   <header{{ wrapper_attributes }}>
-    <div{{ container_attributes }}>
-      {{ regions }}
+    <div{{ container_attributes }} class="header-wrapper">
+      
+      <div class="site-logo">
+        <a href="/">
+          <img src="{{ directory }}/logo.svg" alt="Logo">
+        </a>
+      </div>
+
+      <nav class="main-menu">
+        {{ regions.menu }}
+      </nav>
+
+      <div class="donate-wrapper">
+        <a href="/donate" class="donate-button">Donate Now</a>
+      </div>
+
     </div>
   </header>
+
   {{ row_suffix }}
 </div>

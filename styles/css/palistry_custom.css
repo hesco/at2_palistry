@@ -239,3 +239,16 @@ body nav#block-at-palistry-main-menu {
     background: lime !important; /* test visibility */
 }
 
+nav#block-at-palistry-main-menu a,
+nav#block-at-palistry-main-menu span.menu__link--wrapper,
+ul.menu-name--main li a {
+  color: #ffffff !important;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Optional: remove lime background after testing */
+body nav#block-at-palistry-main-menu {
+  float: right !important;
+  background: transparent !important;
+}
