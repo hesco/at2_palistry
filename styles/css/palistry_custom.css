@@ -230,12 +230,69 @@ div#rid-content-suffix -> div#block-purchaseakuffieyh -> div#purchase_kuffiyeh {
 .l-content-suffix #content-suffix #purchase_kuffiyeh p {
     color: white;
 }
+
 nav#block-at-palistry-main-menu {
-    display:block !important;
-    float:right !important;
+  display:block !important;
+  float:right !important;
 }
+
 body nav#block-at-palistry-main-menu {
-    float: right !important;
-    background: lime !important; /* test visibility */
+  float: right !important;
+  background: lime !important; /* test visibility */
+}
+
+#leaderboard .black-bar-at-top {
+  padding:10px;
+}
+
+#leaderboard .black-bar-at-top p {
+  margin: 0;
+}
+
+#leaderboard .pr-leaderboard__rw {
+  padding:0;
+  max-width: 100%;
+}
+
+#leaderboard .pr-leaderboard__rw #rid-leaderboard {
+  padding:0;
+}
+
+.l-header.l-row #block-at-palistry-main-menu {
+  height: auto;
+}
+
+header#masthead div#rid-header-first div#block-at-palistry-branding {
+  height: auto;
+  margin: 0;
+}
+
+header#masthead #block-donatenowbutton {
+  margin: 0;
+}
+
+header#masthead #block-donatenowbutton .field-block-content--body {
+  margin: 0 0 0 50px;
+}
+
+header#masthead #rid-header-second {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+header#masthead div#rid-header-first div#block-at-palistry-branding img.site-branding__logo-img {
+  margin: 0;
+}
+
+body.path-frontpage div#content-prefix div.l-rw {
+  max-width: 100%;
+  margin-top: 15px;
+}
+
+header#masthead .l-rw.regions.container.pr-header__rw {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 30px;
 }
 
