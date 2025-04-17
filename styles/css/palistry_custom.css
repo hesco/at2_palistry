@@ -65,6 +65,7 @@ div#palistory_merchandise_copy p {
   color: #ffffff;
 }
 
+div.views-field-body,
 div.views-field-field-embed-video {
   margin-top: 1em;
   margin-left: 1em;
