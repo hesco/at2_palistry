@@ -66,19 +66,16 @@ div#palistory_merchandise_copy p {
 }
 
 div.views-field-field-embed-video {
-  background-color: blue;
   margin-top: .1em;
   margin-left: .1em;
   margin-right: .1em;
 }
 
 div.views-field-body {
-  background-color: yellow;
   margin-top: .2em;
   margin-bottom: 5em;
-  margin-left: 2em;
-  margin-right: 2em;
-
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 div.palistory-tellers div.views-field-field-embed-video div.field-content, 
