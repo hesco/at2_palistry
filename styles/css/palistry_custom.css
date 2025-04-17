@@ -7,7 +7,7 @@
   clear: both;
   display: table;
 }
-nav.rm-config-provider--system {
+nav.rm-block {
     display: block !important;
     float: right !important;
 }
