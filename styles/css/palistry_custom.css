@@ -7,7 +7,7 @@
   clear: both;
   display: table;
 }
-nav#block-at-palistry-main-menu {
+nav.rm-config-provider--system {
     display: block !important;
     float: right !important;
 }
