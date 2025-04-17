@@ -65,15 +65,18 @@ div#palistory_merchandise_copy p {
   color: #ffffff;
 }
 
-div.views-field-body,
 div.views-field-field-embed-video {
+  background-color: blue;
   margin-top: .5em;
   margin-left: .5em;
   margin-right: .5em;
 }
 
 div.views-field-body {
+  margin-top: .2em;
   margin-bottom: 2em;
+  margin-left: .5em;
+  margin-right: .5em;
 
 }
 
