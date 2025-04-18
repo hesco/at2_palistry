@@ -61,7 +61,8 @@ body.path-frontpage article.node--type-about-palistory.node--promoted span.field
   // background-color: rgba(255, 0, 0, 0.4);
 }
 
-.view-id-0_palistory_about .node--sticky .node__container {
+li:has(.view-id-0_palistory_about .node--sticky .node__container) {
+  @include clearfix;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
