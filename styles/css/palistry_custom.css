@@ -397,3 +397,33 @@ li#menu-name--main__contribute {
   width: 95% !important;
 }
 
+@media only screen and (min-width: 1024px) {
+  #masthead .l-rw.regions.container.pr-header__rw {
+    margin: auto;
+  }
+
+  #rid-header-first {
+    width: 30%;
+  }
+  #rid-header-second{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  #block-at-palistry-main-menu{
+    display: flex!important;
+    padding-top: 10px;
+    align-items: flex-start;
+
+  }
+
+  #block-donatenowbutton{
+    width: auto;
+    max-width: 288px;
+    display: flex!important;
+    margin: 0px;
+  }
+}
+    
