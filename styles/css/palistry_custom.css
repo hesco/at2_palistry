@@ -241,6 +241,19 @@ div.field-formatter-glightbox-media-remote-video a.glightbox {
   width: 85%;
 }
 
+div.palistory_contribute_now_card_header p span.copy-501c3 {
+  font-size: 0.4em;
+}
+
+div.palistory_contribute_now_card_header p {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+div.block-contributetoourworkcard-2 { 
+  margin: auto;
+}
+
 div#block-contributetoourworkcard-2 p {
   margin: 0 0 1.00rem;
 }
