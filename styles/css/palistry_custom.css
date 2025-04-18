@@ -81,7 +81,10 @@ article.node--id-1 span.field-name-title {
   body.path-frontpage article.node--type-about-palistory.node--promoted {
     float: left;
     width: 48%;
-    padding-right: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 
 }
