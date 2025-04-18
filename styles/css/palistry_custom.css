@@ -73,15 +73,23 @@ div.views-field-field-embed-video {
 
 div.views-field-body {
   margin-top: .2em;
-  margin-bottom: 5em;
+  margin-bottom: .5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-bottom: 2em;
+}
+
+div.palistory-tellers div.views-field-field-embed-video div.field-content {
+  margin: 1em 1em 1em 1em;
+}
+
+div.palistory-tellers div.views-field-field-embed-video div.field-content p {
   margin-left: 1em;
   margin-right: 1em;
 }
 
-// div.palistory-tellers div.views-field-field-embed-video div.field-content, 
-div.palistory-tellers div.views-field-field-embed-video div.field-content p, 
 div.palistory-tellers div.views-field-field-embed-video div.field-content span.story-teller-name { 
-  margin: 2em 2em 2em 2em;
+  margin: 1em 1em 1em 1em;
 }
 
 #iframe-field_embed_video-9,
@@ -114,8 +122,8 @@ div.views-field-field-embed-video h3.iframe_title {
 div.palistory-tellers div.views-col.col-1,
 div.palistory-tellers div.views-col.col-2,
 div.palistory-tellers div.views-col.col-3 {
-  border-radius: 25px;
   background-color: #b8b8b8;
+  border-radius: 25px;
   margin: 12px;
 }
 
