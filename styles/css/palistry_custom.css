@@ -150,6 +150,9 @@ div.views-field-field-embed-video div.views-field-body {
   
 }
 
+article.node--id-1 h2.node__title,
+div#block-at-palistry-page-title,
+div#block-at-palistry-breadcrumbs,
 article.node--promoted .field-name-title,
 div.views-field-field-embed-video h3.iframe_title {
   display: none;
