@@ -202,10 +202,27 @@ div.field-formatter-glightbox-media-remote-video a.glightbox {
   width: 85%;
 }
 
+div#block-contributetoourworkcard-2 div.block__inner {
+  padding: 2em;
+}
+
+div#block-contributetoourworkcard-2,
 div#block-merchandisepurchase {
-//  float: left;
-  width: 48%;
+  background-color: white;
+  float: right;
   @include clearfix;
+  margin: 2px;
+  border-radius: 25px;
+}
+
+@media (min-width: 480px) {
+  div#block-contributetoourworkcard-2 {
+    width: 30%;
+  }
+}
+
+article.node--id-17 header.node__header {
+  display: none;
 }
 
 div#palistory_merchandise {
