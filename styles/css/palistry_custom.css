@@ -68,7 +68,8 @@ body.path-frontpage article.node--type-about-palistory.node--promoted span.field
   background-image: url("/sites/default/files/public_images/2025-03/hungry_gazan_children-01.jpg");
 }
 
-article.node--id-1 {
+article.node--id-1,
+article.node--id-1 span.field-name-title {
   color: white;
   background-color: transparent;
 }
