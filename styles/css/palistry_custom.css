@@ -74,6 +74,16 @@ article.node--id-1 span.field-name-title {
   background-color: transparent;
 }
 
+@media screen and (min-width: 800px) {
+
+  article.node--id-1,
+  body.path-frontpage article.node--type-about-palistory.node--promoted {
+    float: left;
+    width: 48%;
+    padding-right: 1px;
+  }
+}
+
 div#palistory_merchandise_copy p {
   color: #ffffff;
 }
