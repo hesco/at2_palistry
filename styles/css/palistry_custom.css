@@ -61,7 +61,7 @@ body.path-frontpage article.node--type-about-palistory.node--promoted span.field
   // background-color: rgba(255, 0, 0, 0.4);
 }
 
-li:has(.view-id-0_palistory_about .node--sticky .node__container) {
+.view-id-0_palistory_about .node--sticky .node__container {
   @include clearfix;
   background-position: center;
   background-repeat: no-repeat;
@@ -77,12 +77,13 @@ article.node--id-1 span.field-name-title {
 
 @media screen and (min-width: 800px) {
 
-  article.node--id-1,
+  article.node--id-1 div.palistory_mission,
   body.path-frontpage article.node--type-about-palistory.node--promoted {
     float: left;
     width: 48%;
     padding-right: 1px;
   }
+
 }
 
 div#palistory_merchandise_copy p {
