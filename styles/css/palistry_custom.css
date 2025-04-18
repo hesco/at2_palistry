@@ -376,3 +376,7 @@ li#menu-name--main__contribute {
   margin-right: 57px;
 }
 
+.stripe_buy_now_button iframe {
+  width: 95% !important;
+}
+
