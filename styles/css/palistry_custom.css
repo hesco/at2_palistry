@@ -154,7 +154,7 @@ div.palistory-tellers div.views-field-field-embed-video div.field-content p {
   margin-right: 1em;
 }
 
-div.palistory-tellers div.views-field-field-embed-video div.field-content span.story-teller-name { 
+div.palistory-tellers div.views-field-field-embed-video div.field-content span.story-teller-name {
   margin: 1em 1em 1em 1em;
 }
 
@@ -221,7 +221,7 @@ div.palistory-tellers div.view-header {
   text-align: center;
 }
 
-.pr-navbar, 
+.pr-navbar,
 div#navbar div.l-rw,
 footer#footer,
 div#rid-footer {
@@ -244,7 +244,7 @@ span.field-name-title {
   color: #2e2e2e;
 }
 
-article.node--type-story-teller-video, 
+article.node--type-story-teller-video,
 main#block-at-palistry-content div.card-group article.node--type-story-teller-video,
 div#block-views-block-0-palistory-board-block-1 div.views.col,
 div.card-group article.node--type-interviews {
@@ -280,7 +280,7 @@ div.palistory_contribute_now_card_header p {
   text-align: center;
 }
 
-div.block-contributetoourworkcard-2 { 
+div.block-contributetoourworkcard-2 {
   margin: auto;
 }
 
