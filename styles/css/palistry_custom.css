@@ -13,6 +13,7 @@ nav.rm-block {
     float: right !important;
 }
 
+div.at__palistry-slideshow-0 h3,
 div.palistory_board_member a {
   color: #2e2e2e;
   font-weight: 600;
@@ -180,6 +181,7 @@ div.views-field-field-embed-video div.views-field-body {
   
 }
 
+h2#block-palistoryboard-title,
 article.node--id-1 h2.node__title,
 div#block-at-palistry-page-title,
 div#block-at-palistry-breadcrumbs,
