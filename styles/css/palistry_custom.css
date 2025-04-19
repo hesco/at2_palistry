@@ -107,8 +107,8 @@ article.node--id-1 span.field-name-title {
 }
 
 div.palistory_mission {
-  background-color: #b8b8b8;
-  background: rgba(169, 169, 169, .2)
+  display: block;
+  background: rgba(169, 169, 169, .8)
   border-radius: 25px;
   margin: 12px;
 }
