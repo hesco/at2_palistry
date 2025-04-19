@@ -1,3 +1,52 @@
 
 https://www.drupal.org/docs/develop/theming-drupal/adding-assets-css-js-to-a-drupal-theme-via-librariesyml
 
+video_editor@marcus012:~/sandbox/at2_palistry$ grep -R palistry . | grep -v '.git' | grep -v config | less
+
+grep: ./.git/index: binary file matches
+./at2_palistry.info.yml:description: 'Adaptation of the at2_palistry theme for the palistory.com site, by YMD Productions'
+./at2_palistry.info.yml:  - at2_palistry/global-styling
+./at2_palistry.libraries.yml:      css/palistry_custom.css: {}
+./at2_palistry.libraries.yml:    js/palistry_custom.js: {}
+./at__palistry.theme:function at__palistry_library_info_build() {
+./at__palistry.theme:  $theme = 'at__palistry';
+./at__palistry.theme:function at__palistry_page_attachments_alter(array &$page) {
+./at__palistry.theme:  $theme = 'at__palistry';
+./at__palistry.theme:function at__palistry_preprocess_html(&$variables) {
+./at__palistry.theme:function at__palistry_preprocess_page(&$variables) {
+./at__palistry.theme:function at__palistry_preprocess_field(&$variables) {
+./at__palistry.theme:function at__palistry_preprocess_node(&$variables) {
+./at__palistry.theme:function at__palistry_preprocess_comment(&$variables) {
+./at__palistry.theme:function at__palistry_preprocess_block(&$variables) {
+./composer.json:  "name": "ymd/at2_palistry",
+./images/README.md:link them as: /themes/custom/at2_palistry/images/[image_name]
+./js/palistry_custom.js:    alert('Welcome to the palistry site hosted at palistory.com.  Our custom js is working.  Disable this alert and add your custom js code at js/palistry_custom.js');
+./styles/css/custom/civicrm/donor_form.css:// html:not(root) div#block-at-palistry-branding,
+./styles/css/custom/civicrm/donor_form.css:// html:not(root) body.theme-name--at__palistry div.l-navbar {
+./styles/css/palistry_custom.css:div.at__palistry-slideshow-0 h3,
+./styles/css/palistry_custom.css:  #block-at-palistry-main-menu{
+./styles/css/palistry_custom.css:header#masthead div#rid-header-first div#block-at-palistry-branding,
+./styles/css/palistry_custom.css:header#masthead div#rid-header-first div#block-at-palistry-branding img.site-branding__logo-img {
+./styles/css/palistry_custom.css:div#block-at-palistry-page-title,
+./styles/css/palistry_custom.css:div#block-at-palistry-breadcrumbs,
+./styles/css/palistry_custom.css:main#block-at-palistry-content div.card-group article.node--type-story-teller-video,
+./styles/css/palistry_custom.css:nav#block-at-palistry-main-menu span.menu__link--wrapper {
+./styles/css/palistry_custom.css:nav#block-at-palistry-main-menu {
+./styles/css/palistry_custom.css:body nav#block-at-palistry-main-menu {
+./styles/css/palistry_custom.css:.l-header.l-row #block-at-palistry-main-menu {
+./styles/css/palistry_custom.css:header#masthead div#rid-header-first div#block-at-palistry-branding {
+./styles/css/palistry_custom.css:header#masthead div#rid-header-first div#block-at-palistry-branding img.site-branding__logo-img {
+./templates/generated/page.html.twig:{{ attach_library('at__palistry/at__palistry.layout.page') }}
+./theme-settings.php:function at__palistry_form_system_theme_settings_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id = NULL) {
+./theme-settings.php:// $form['#validate'][] = 'at__palistry_settings_form_validate';
+./theme-settings.php:// $form['#submit'][] = 'at__palistry_settings_form_submit';
+./theme-settings.php:function at__palistry_settings_form_validate($form, &$form_state) {
+./theme-settings.php:function at__palistry_settings_form_submit($form, &$form_state) {
+./sync_theme_dev.sh:cd /var/lib/jenkins/sites/palistry/web/themes/custom/at2_palistry
+./at__palistry.info.yml:name: at2_palistry
+./at__palistry.info.yml:  at__palistry/global-scripts
+./at__palistry.info.yml:    - at__palistry/quickedit
+./at__palistry.libraries.yml:      styles/css/palistry_custom.css: { weight: 1000 }
+./at__palistry.libraries.yml:      js/palistry_custom.js: { weight: 1000 }
+./at__palistry.libraries.yml:    js/palistry_custom.js: {}
+
