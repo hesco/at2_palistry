@@ -422,6 +422,15 @@ custom_css_file:
   dependencies:
     - vendor/twbs/bootstrap
 
+# Custom JS file.
+custom_js_file:
+  version: 8.x-0.1
+  js:
+    theme:
+      js/palistry_custom.js: { weight: 1000 }
+  dependencies:
+    - core/jquery
+
 bootstrap:
   css:
     theme:
