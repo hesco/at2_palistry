@@ -468,12 +468,13 @@ li#menu-name--main__contribute {
 #block-palistorylogoforfooter{
 	float: left;
 	width: 50%;
+	text-align: left;
 }
 #palistory_logo_for_footer p{
 	display: none; /* could also remove the <p> element in this div */
 }
 #palistory_logo_for_footer img{
-	width: 200px;
+	width: 250px;
 }
 
 #block-palistoryisdedicated{
@@ -485,12 +486,14 @@ li#menu-name--main__contribute {
 #block-palistoryisdedicated p{
 	text-align: left !important;
 }
-
 @media screen and (max-width: 800px) {
 	#block-palistoryisdedicated,
 	#block-palistorylogoforfooter{
 		float: none;
 		width: auto;
+		text-align: center !important;
+	}
+	#block-palistoryisdedicated p{
 		text-align: center !important;
 	}
 }
