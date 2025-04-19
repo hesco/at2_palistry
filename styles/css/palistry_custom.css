@@ -467,7 +467,7 @@ li#menu-name--main__contribute {
 
 #block-palistorylogoforfooter{
 	float: left;
-	width: 50%:
+	width: 50%;
 }
 #palistory_logo_for_footer p{
 	display: none; /* could also remove the <p> element in this div */
@@ -490,7 +490,7 @@ li#menu-name--main__contribute {
 	#block-palistoryisdedicated,
 	#block-palistorylogoforfooter{
 		float: none;
-		width: auto:
+		width: auto;
 		text-align: center;
 	}
 }
