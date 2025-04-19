@@ -31,6 +31,8 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 tags: 'adaptivetheme sub-theme'
+libraries:
+  at__palistry/global-scripts
 libraries-extend:
   quickedit/quickedit:
     - at__palistry/quickedit

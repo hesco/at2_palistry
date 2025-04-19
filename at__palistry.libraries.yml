@@ -463,6 +463,7 @@ global-styling:
 global-scripts:
   js:
     js/bootstrap.js: {}
+    js/palistry_custom.js: {}
 
 #   vendor/twbs/bootstrap/dist/js/bootstrap.min.js: {}
 
