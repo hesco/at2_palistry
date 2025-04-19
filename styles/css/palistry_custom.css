@@ -486,7 +486,7 @@ li#menu-name--main__contribute {
 	text-align: left !important;
 }
 
-@media (min-width: 800px) {
+@media screen and (max-width: 800px) {
 	#block-palistoryisdedicated,
 	#block-palistorylogoforfooter{
 		float: none;
