@@ -123,6 +123,12 @@ div.palistory_mission {
     padding-top: .5em;
   }
  
+  article.node--id-1 div.palistory_mission {
+    background: rgba(169, 169, 169, .8)
+    border-radius: 25px;
+    margin: 12px;
+  }
+
   article.node--id-1 div.palistory_mission,
   body.path-frontpage article.node--type-about-palistory.node--promoted {
     float: left;
