@@ -300,6 +300,15 @@ div.palistory_contribute_now_card_header p {
   text-align: center;
 }
 
+header .donate_now_button{
+	max-width: 200px;
+}
+.palistory_contribute_now_card .stripe_buy_now_button{
+	width: 100% !important;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
 div.block-contributetoourworkcard-2 {
   margin: auto;
 }
@@ -315,16 +324,19 @@ div#block-contributetoourworkcard-2 div.block__inner {
 div#block-contributetoourworkcard-2,
 div#block-merchandisepurchase {
   background-color: white;
-  float: right;
   @include clearfix;
   margin: 2px;
   border-radius: 25px;
   max-height: 80%;
 }
+div#block-merchandisepurchase{
+  float: right;
+}
 
-@media (min-width: 480px) {
+@media (min-width: 800px) {
   div#block-contributetoourworkcard-2 {
     width: 30%;
+    float: right;
   }
 }
 
@@ -452,3 +464,37 @@ li#menu-name--main__contribute {
   width: 95% !important;
 }
 
+
+#block-palistorylogoforfooter{
+	float: left;
+	width: 50%:
+}
+#palistory_logo_for_footer p{
+	display: none; /* could also remove the <p> element in this div */
+}
+#palistory_logo_for_footer img{
+	width: 200px;
+}
+
+#block-palistoryisdedicated{
+	display: block;
+	float: right;
+	width: 50%;
+	text-align: left;
+}
+#block-palistoryisdedicated p{
+	text-align: left !important;
+}
+
+@media (min-width: 800px) {
+	#block-palistoryisdedicated,
+	#block-palistorylogoforfooter{
+		float: none;
+		width: auto:
+		text-align: center;
+	}
+}
+
+#block-mainnavigation{
+	clear: both;
+}
