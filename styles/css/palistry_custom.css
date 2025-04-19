@@ -133,6 +133,7 @@ article.node--id-1 div.palistory_mission h2,
 article.node--id-1 div.palistory_mission h1 {
   padding-left: 1em;
   padding-right: 1em;
+  text-shadow: 2px 2px darkgreen;
 }
 
 article.node--id-1 div.palistory_mission h1 {
@@ -143,6 +144,7 @@ article.node--id-1 div.palistory_mission p {
   padding-bottom: 2em;
 }
 
+p.history_on_shoulders,
 div#palistory_merchandise_copy p {
   color: #ffffff;
 }
@@ -355,14 +357,17 @@ ul.menu-name--main li {
   align-items: center;
 }
 
-#purchase_kuffiyeh,
-div#purchase_kuffiyeh:before,
-div#rid-content-suffix -> div#block-purchaseakuffieyh -> div#purchase_kuffiyeh {
-  background-image: url("https://dev.palistory.org/sites/default/files/public_images/2025-03/Palistory-banner-02.png");
+// see: templates/block/block--purchaseakuffieyh.html.twig
+div#rid-content-suffix -> div#block-purchaseakuffieyh -> div.block__content {
+  background-image: url("/sites/default/files/public_images/2025-04/Palistory-banner-03.png");
+  background-size: auto 400px;
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+}
+
+p.purchase-a-kuffiyeh {
+  padding-top: 1em;
 }
 
 .l-content-suffix #content-suffix #purchase_kuffiyeh p {

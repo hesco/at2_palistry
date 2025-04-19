@@ -24,6 +24,8 @@
  * - bundle: The bundle of a custom block.
  * - view_mode: The view mode a custom block was rendered in.
  *
+ *    <div{{ content_attributes.addClass('block__content') }}>
+ *
  * @see template_preprocess_block()
  */
 #}
@@ -48,7 +50,7 @@
     {{ title_suffix }}
 
     {%- block content -%}
-      <div{{ content_attributes.addClass('block__content') }} style='background-image: url("https://dev.palistory.org/sites/default/files/public_images/2025-03/Palistory-banner-02.png"); background-color: #cccccc; background-position: center; background-repeat: no-repeat; background-size: cover; height: 230px'>
+      <div{{ content_attributes.addClass('block__content') }} style='background-image: url("/sites/default/files/public_images/2025-04/Palistory-banner-03.png"); background-color: #cccccc; background-position: center; background-repeat: no-repeat; background-size: cover 400px;'>
         {{- content -}}
       </div>
     {%- endblock -%}
