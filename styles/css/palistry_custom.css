@@ -299,6 +299,7 @@ div#block-merchandisepurchase {
   @include clearfix;
   margin: 2px;
   border-radius: 25px;
+  max-height: 80%;
 }
 
 @media (min-width: 480px) {
