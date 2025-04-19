@@ -390,6 +390,7 @@ header#masthead div#rid-header-first div#block-at-palistry-branding {
 header#masthead #block-donatenowbutton {
   margin: 0;
 }
+  // max-width: 5%;
 
 header#masthead #block-donatenowbutton .field-block-content--body {
   margin: 0 0 0 50px;
