@@ -497,6 +497,9 @@ li#menu-name--main__contribute {
 	width: 50%;
 	text-align: left;
 }
+#palistory_logo_for_footer.text-align-center{
+	text-align: left;
+}
 #palistory_logo_for_footer p{
 	display: none; /* could also remove the <p> element in this div */
 }
@@ -520,6 +523,7 @@ li#menu-name--main__contribute {
 		width: auto;
 		text-align: center !important;
 	}
+	#palistory_logo_for_footer.text-align-center,
 	#block-palistoryisdedicated p{
 		text-align: center !important;
 	}
