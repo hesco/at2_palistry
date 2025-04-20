@@ -466,6 +466,10 @@ header#masthead .l-rw.regions.container.pr-header__rw {
   padding: 0 30px;
 }
 
+li#menu-name--main__contribute a {
+  color: transparent;
+}
+
 li#menu-name--main__contribute {
   background-image: url("/sites/default/files/public_images/2025-03/donate_now_button.png");
   background-size: contain;
