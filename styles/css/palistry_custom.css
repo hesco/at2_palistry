@@ -262,6 +262,10 @@ div#rid-footer {
   /* background-color: #2e2e2e; */
 }
 
+footer#footer a {
+  color: #56a5f4;
+}
+
 div.card-group div.field-name--field-card-title h3.field__label,
 div.field-node--field-card-img h3.field__label {
   display: none;
