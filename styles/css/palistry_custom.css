@@ -288,7 +288,7 @@ div.card-group article.node--type-interviews {
 /* box-shadow: rgba(233, 0, 2, 0.4) 5px 5px, rgba(233, 0, 2, 0.3) 10px 10px, rgba(233, 0, 2, 0.2) 15px 15px, rgba(233, 0, 2, 0.1) 20px 20px, rgba(233, 0, 2, 0.05) 25px 25px; */
 
 nav#block-at-palistry-main-menu span.menu__link--wrapper {
-  background-color: #3e3e3e;
+  /* background-color: #3e3e3e; */
 }
 
 .ms-dropmenu .rm-block__content .menu-level-1 > li > span > .menu__link.is-active, .ms-horizontal .rm-block__content .menu-level-1 > li > span > .menu__link.is-active {
@@ -467,6 +467,7 @@ header#masthead .l-rw.regions.container.pr-header__rw {
 
 li#menu-name--main__contribute {
   background-image: url("/sites/default/files/public_images/2025-03/donate_now_button.png");
+  background-size: auto;
 }
 
 .ms-dropmenu .rm-block__content .menu-level-1 {

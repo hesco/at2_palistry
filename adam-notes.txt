@@ -1,3 +1,9 @@
+Adam:
+
+https://www.google.com/search?client=firefox-b-1-e&channel=entpr&q=must+twig+changes+be+compiled+somehow%3F
+
+cleaned this up:
+https://dev.palistory.org/themes/custom/at2_palistry/js/palistry_custom.js
 
 https://www.drupal.org/docs/develop/theming-drupal/adding-assets-css-js-to-a-drupal-theme-via-librariesyml
 
