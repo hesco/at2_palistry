@@ -464,13 +464,11 @@ header#masthead div#rid-header-first div#block-at-palistry-branding img.site-bra
 }
 
 body.path-frontpage div#content-prefix div.l-rw {
-  max-width: 100%;
   margin-top: 15px;
 }
 
 header#masthead .l-rw.regions.container.pr-header__rw {
   margin: 0 auto;
-  max-width: 100%;
   padding: 0 30px;
 }
 
