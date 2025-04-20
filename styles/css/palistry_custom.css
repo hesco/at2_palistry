@@ -479,6 +479,8 @@ li#menu-name--main__contribute a {
 li#menu-name--main__contribute {
   background-image: url("/sites/default/files/public_images/2025-03/donate_now_button.png");
   background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .ms-dropmenu .rm-block__content .menu-level-1 {
@@ -512,6 +514,7 @@ li#menu-name--main__contribute {
 	text-align: left;
 }
 #block-palistoryisdedicated p{
+	color: white;
 	text-align: left !important;
 }
 @media screen and (max-width: 800px) {
@@ -523,6 +526,7 @@ li#menu-name--main__contribute {
 	}
 	#palistory_logo_for_footer.text-align-center,
 	#block-palistoryisdedicated p{
+		color: white;
 		text-align: center !important;
 	}
 }
