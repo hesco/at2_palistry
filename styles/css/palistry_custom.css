@@ -468,7 +468,7 @@ header#masthead .l-rw.regions.container.pr-header__rw {
 
 li#menu-name--main__contribute {
   background-image: url("/sites/default/files/public_images/2025-03/donate_now_button.png");
-  background-size: auto;
+  background-size: contain;
 }
 
 .ms-dropmenu .rm-block__content .menu-level-1 {
