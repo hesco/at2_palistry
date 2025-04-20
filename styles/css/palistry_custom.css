@@ -406,6 +406,14 @@ nav#block-at-palistry-main-menu {
   float:right !important;
 }
 
+@media screen and (max-width: 800px) {
+  nav#block-at-palistry-main-menu {
+    background-size: contain;
+    display:block !important;
+    float:right !important;
+  }
+}
+
 body nav#block-at-palistry-main-menu {
   float: right !important;
 }
