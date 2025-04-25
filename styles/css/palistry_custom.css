@@ -1503,3 +1503,8 @@ ul.menu-name--main, div.l-footer ul.menu-name--main {
 }
 
 }
+
+div#block-copyrightnotice p {
+  color: white;
+}
+
