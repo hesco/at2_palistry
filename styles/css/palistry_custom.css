@@ -1174,38 +1174,6 @@ nav#block-at-palistry-main-menu ul li:last-child a.menu__link {
   display: block;
   margin-bottom: 10px;
 }
-button.rm-toggle__link.un-button:before {
-    content: '';
-    display: block;
-    background-image: url(/sites/default/files/inline-images/icons_mobile_0.png);
-    width: 23px;
-    height: 23px;
-    background-size: contain;
-    top: 0;
-    position: absolute;
-    left: 2px;
-    background-repeat: no-repeat;
-}
-button.rm-toggle__link.un-button[aria-expanded="true"]:before {
-    background-image: url(/sites/default/files/inline-images/close_1.png);
-    width: 19px;
-    height: 19px;
-}
-nav button.rm-toggle__link.un-button > svg{
-  display: none;
-}
-nav button.rm-toggle__link.un-button {
-    width: 25px;
-    height: 25px;
-    padding: 0;
-    position: relative;
-}
-button.rm-accordion-trigger.un-button {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-}
-
 .rm-block__content button.rm-accordion-trigger.un-button:before {
     content: '+';
     position: absolute;
