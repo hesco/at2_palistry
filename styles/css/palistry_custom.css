@@ -587,18 +587,7 @@ nav#block-at-palistry-main-menu {
     background-color: #fff;
     padding: 9px 0px;
 }
-nav#block-at-palistry-main-menu ul li:last-child a.menu__link {
-    color: #fff;
-    border-bottom: none;
-    padding-left: 25px;
-    padding-right: 25px;
-    background: #e70001;
-    font-weight: 600;
-    border-radius: 5px;
-    margin-left: 60px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+
 nav#block-at-palistry-main-menu ul li a.menu__link {
     color: #000;
     border-bottom: 2px solid transparent;
@@ -612,9 +601,7 @@ nav#block-at-palistry-main-menu ul li a.menu__link.is-active {
 nav#block-at-palistry-main-menu ul li a.menu__link:hover {
     background: transparent;
 }
-nav#block-at-palistry-main-menu ul li:last-child a.menu__link:hover {
-    background: #CB0005;
-}
+
 .ms-dropmenu .rm-block__content .menu__link:after {
     display: none !important;
 }
@@ -749,16 +736,7 @@ nav#block-at-palistry-main-menu ul li a.menu__link {
     margin-top: 10px;
     margin-bottom: 20px;
 }*/
-nav#block-at-palistry-main-menu ul li:last-child a.menu__link {
-    font-weight: normal;
-    border-radius: 30px;
-    margin-left: 0px;
-    width: fit-content;
-    padding-top: 9px;
-    margin-top: 13px;
-    padding-bottom: 7px;
-    display: none;
-}
+
 #block-at-palistry-branding {
     width: 70%;
     float: left;
@@ -861,7 +839,7 @@ nav#block-at-palistry-main-menu ul li a.menu__link {
 }
 
 nav#block-at-palistry-main-menu ul li:last-child a.menu__link {
-    color: #000000 !important;!i;!;
+    color: #000000 !important;
 }
 
 .ms-slidedown .rm-block__content .is-child {
@@ -937,7 +915,12 @@ button.rm-accordion-trigger.un-button {
 nav#block-at-palistry-main-menu ul li:last-child a.menu__link {
     padding-left: 10px  !important;
 }
-
+.rm-block_content .menu > .menu_item {
+    width: 100%;
+}
+nav#block-at-palistry-main-menu ul.menu {
+    flex-wrap: wrap;
+}
 }
 
 @media (min-width: 768px) and (max-width: 960px) {
@@ -1250,7 +1233,12 @@ button.rm-accordion-trigger.un-button {
   .ms-slidedown .rm-block__content .is-child.is-open--child {
     padding-left: 10px !important;
   }
-
+.rm-block_content .menu > .menu_item {
+    width: 100%;
+}
+nav#block-at-palistry-main-menu ul.menu {
+    flex-wrap: wrap;
+}
 
 }
 
@@ -1296,6 +1284,3 @@ div#rid-navbar {
 
 
 }
-
-
-
