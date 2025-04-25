@@ -1416,7 +1416,17 @@ body.rm-is-open {
     overflow: hidden;
 }
 
-
+header nav#block-at-palistry-main-menu ul li:last-child a.menu__link,
+header nav#block-at-palistry-main-menu ul li a.menu__link {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+footer ul.menu.odd.menu-level-1.menu-name--footer {
+    display: none !important;
+}
+header nav#block-at-palistry-main-menu ul li ul.menu a.menu__link {
+    padding-left: 10px !important;
+}
 
 }
 
@@ -1487,6 +1497,9 @@ footer#footer ul.menu.odd.menu-level-1 li.menu__item {
 
 ul.menu-name--main, div.l-footer ul.menu-name--main {
     flex-wrap: wrap !important;
+}
+#block-at-palistry-branding .block_inner.block-branding_inner {
+    width: 190px !important;
 }
 
 }
